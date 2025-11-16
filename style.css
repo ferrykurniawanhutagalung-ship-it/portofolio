@@ -874,7 +874,12 @@ footer {
   }
 
   .section {
-    padding: 50px 20px 30px;
+    padding: 80px 20px 60px; /* Increased padding for better mobile spacing */
+  }
+
+  .demo-section {
+    padding: 40px 20px; /* Adjusted padding for demo sections */
+    margin-bottom: 40px; /* Increased margin for spacing */
   }
 
   .projects-grid {
@@ -914,8 +919,17 @@ footer {
     font-size: 1.2rem;
   }
 
+  .section {
+    padding: 80px 20px 60px; /* Increased padding for better spacing */
+  }
+
+  .demo-section {
+    padding: 40px 20px; /* Adjusted padding for demo sections */
+    margin-bottom: 40px; /* Increased margin for spacing */
+  }
+
   footer {
-    padding: 15px 15px;
+    padding: 20px 15px;
     font-size: 0.85rem;
   }
 }
