@@ -1,0 +1,8 @@
+- [x] Enhance navbar in style.css: Add gradient background, stronger box-shadow, smooth hover animations, thin border-bottom.
+- [x] Modify typewriter in script.js: Cycle through ["Front End Web Developer", "Web Developer", "Photography", "Fullstack Developer"] with typing and deleting effects.
+- [x] Make navbar links bold in style.css.
+- [x] Change social icons in index.html to actual icons for Instagram, WhatsApp, GitHub.
+- [x] Add skills statistics section below About Me with: Front End Web Developer, UI/UX, BackEnd Web Developer, Fullstack Web Developer, Laravel, Photography.
+- [x] Add programming languages section below skills with icons for HTML, CSS, JavaScript, PHP.
+- [x] Update theme colors to include a combination beyond just purple (add blue, green, etc.).
+- [x] Add icons to skills section and implement animations for skills.

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ferry - Front End Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Particles Background -->
+  <div class="particles" id="particles"></div>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Ferry</div>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="theme-toggle" id="themeToggle">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/>
+      </svg>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2 class="subtitle">Hello, It's Me</h2>
+      <h1 class="main-title">y_rref</h1>
+      <div class="typewriter-container">
+        <span class="typewriter-text" id="typewriter">And I'm a Front End Web Developer</span>
+      </div>
+      <p class="bio">
+        Based in Bandar Lampung, Lampung, Indonesia. I'm a web developer passionate about building intelligent systems that bridge biology, technology, and decentralized collaboration.
+      </p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/kurniawanhutagalungferry" class="social-btn" title="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+          </svg>
+        </a>
+        <a href="https://wa.me/6282185959648" class="social-btn" title="WhatsApp">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l8.234-2.105c1.15.639 2.439 1.001 3.766 1.001 4.366 0 7.927-3.558 7.93-7.93A7.92 7.92 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.82.808 1.95c.098.127 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/ferrykurniawanhutagalung-ship-it" class="social-btn" title="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.14.66.66 1.11 1.72.81 2.15.62.07-.5.3-.81.54-.94-1.84-.2-3.76-.89-3.76-3.97 0-.88.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+        </a>
+        <a href="mailto:ferrykurniawanhutagalung@gmail.com" class="social-btn" title="Gmail">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+          </svg>
+        </a>
+      </div>
+      <a href="#contact" class="btn hire-btn">Hire me</a>
+    </div>
+    <div class="hero-image">
+      <!-- Foto placeholder pria muda gaya modern -->
+      <img src="asset/img1.jpeg" alt="Ferry - Front End Developer">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section fade-in">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-text">
+      I’m a front-end developer with a passion for creating beautiful, functional, and responsive websites. My goal is to build digital experiences that are not only visually stunning but also intuitive and accessible to everyone.
+    </p>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section fade-in">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card" style="position: relative;">
+        <div class="project-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="var(--primary-blue)" viewBox="0 0 16 16">
+            <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13z"/>
+          </svg>
+        </div>
+        <h3>Aplikasi Web</h3>
+        <a href="project-details.html" class="btn" style="position: absolute; bottom: 10px; right: 10px;">Visit</a>
+      </div>
+      <div class="project-card" style="position: relative;">
+        <div class="project-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="var(--primary-green)" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M5 6.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zm1.138-1.496a.75.75 0 1 0-.975 1.139.75.75 0 0 0 .975-1.139zm1.636.275a.75.75 0 1 1 .976-1.138.75.75 0 0 1-.976 1.138zm1.5 1.861a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0zm-1.636.275a.75.75 0 1 0 .975 1.139.75.75 0 0 0-.975-1.139zm-1.5 1.861a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0z"/>
+          </svg>
+        </div>
+        <h3>UI/UX</h3>
+        <a href="#" class="btn" style="position: absolute; bottom: 10px; right: 10px;">Visit</a>
+      </div>
+      <div class="project-card" style="position: relative;">
+        <div class="project-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="var(--primary-orange)" viewBox="0 0 16 16">
+            <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+            <path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
+          </svg>
+        </div>
+        <h3>Photography</h3>
+        <a href="#" class="btn" style="position: absolute; bottom: 10px; right: 10px;">Visit</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section fade-in">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-item">
+        <div class="skill-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="var(--primary-blue)" viewBox="0 0 16 16">
+            <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13z"/>
+          </svg>
+        </div>
+        <h3>Front End Web Developer</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 90%; background: linear-gradient(90deg, var(--primary-blue), #1e40af);"></div>
+        </div>
+        <span class="progress-text">90%</span>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="var(--primary-green)" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M5 6.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zm1.138-1.496a.75.75 0 1 0-.975 1.139.75.75 0 0 0 .975-1.139zm1.636.275a.75.75 0 1 1 .976-1.138.75.75 0 0 1-.976 1.138zm1.5 1.861a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0zm-1.636.275a.75.75 0 1 0 .975 1.139.75.75 0 0 0-.975-1.139zm-1.5 1.861a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0z"/>
+          </svg>
+        </div>
+        <h3>UI/UX</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 85%; background: linear-gradient(90deg, var(--primary-green), #059669);"></div>
+        </div>
+        <span class="progress-text">85%</span>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="var(--primary-orange)" viewBox="0 0 16 16">
+            <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"/>
+            <path d="M8 3a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8z"/>
+          </svg>
+        </div>
+        <h3>BackEnd Web Developer</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 80%; background: linear-gradient(90deg, var(--primary-orange), #d97706);"></div>
+        </div>
+        <span class="progress-text">80%</span>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="var(--primary-purple)" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.14.66.66 1.11 1.72.81 2.15.62.07-.5.3-.81.54-.94-1.84-.2-3.76-.89-3.76-3.97 0-.88.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+        </div>
+        <h3>Fullstack Web Developer</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 85%; background: linear-gradient(90deg, var(--primary-purple), #8b5cf6);"></div>
+        </div>
+        <span class="progress-text">85%</span>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="var(--primary-red)" viewBox="0 0 16 16">
+            <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l(.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+          </svg>
+        </div>
+        <h3>Laravel</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 75%; background: linear-gradient(90deg, var(--primary-red), #dc2626);"></div>
+        </div>
+        <span class="progress-text">75%</span>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="var(--primary-orange)" viewBox="0 0 16 16">
+            <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+            <path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
+          </svg>
+        </div>
+        <h3>Photography</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 70%; background: linear-gradient(90deg, var(--primary-orange), #ea580c);"></div>
+        </div>
+        <span class="progress-text">70%</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programming Languages Section -->
+  <section id="languages" class="section fade-in">
+    <h2 class="section-title">Programming Languages</h2>
+    <div class="languages-grid">
+      <div class="lang-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#e34f26" viewBox="0 0 16 16">
+          <path d="M2.5 0A2.5 2.5 0 0 0 0 2.5v11A2.5 2.5 0 0 0 2.5 16h11a2.5 2.5 0 0 0 2.5-2.5v-11A2.5 2.5 0 0 0 13.5 0h-11zm7.657 4.854c-.39-.39-1.023-.39-1.414 0l-3.535 3.536c-.39.39-.39 1.023 0 1.414l3.535 3.536c.39.39 1.023.39 1.414 0l3.535-3.536c.39-.39.39-1.023 0-1.414L10.157 4.854z"/>
+        </svg>
+        <p>HTML</p>
+      </div>
+      <div class="lang-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#1572b6" viewBox="0 0 16 16">
+          <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm10.03 4.97a.75.75 0 0 1 .226.58v.26a.75.75 0 0 1-.226.58L9.677 9.5l2.583 2.583a.75.75 0 0 1-.226.58v.26a.75.75 0 0 1-.58.226H8.75a.75.75 0 0 1-.58-.226l-3.5-3.5a.75.75 0 0 1 0-1.06l3.5-3.5a.75.75 0 0 1 .58-.226h2.44a.75.75 0 0 1 .58.226z"/>
+        </svg>
+        <p>CSS</p>
+      </div>
+      <div class="lang-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#f7df1e" viewBox="0 0 16 16">
+          <path d="M14.23 12.004a2.236 2.236 0 0 0 .444-1.375c0-1.193-.897-2.128-2.444-2.128a2.236 2.236 0 0 0-1.375.444l-.444-.444a2.236 2.236 0 0 0-1.375-.444c-1.547 0-2.444.935-2.444 2.128 0 .547.193 1.02.444 1.375l-.444.444a2.236 2.236 0 0 0-.444 1.375c0 1.193.897 2.128 2.444 2.128a2.236 2.236 0 0 0 1.375-.444l.444.444a2.236 2.236 0 0 0 1.375.444c1.547 0 2.444-.935 2.444-2.128 0-.547-.193-1.02-.444-1.375l.444-.444zM8.5 8.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 3a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-3-3a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 3a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm3-6a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 9a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+        </svg>
+        <p>JavaScript</p>
+      </div>
+      <div class="lang-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#777bb4" viewBox="0 0 16 16">
+          <path d="M8 0C3.582 0 0 3.582 0 8s3.582 8 8 8 8-3.582 8-8S12.418 0 8 0zM6 12H4V4h2v8zm6-8H8v2h2v2H8v2h4V4z"/>
+        </svg>
+        <p>PHP</p>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Ferry. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
